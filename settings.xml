@@ -133,6 +133,10 @@
                         <updatePolicy>always</updatePolicy>
                     </snapshots>
                 </pluginRepository>
+				<pluginRepository>
+                    <id>mule-public</id>
+                    <url>https://repository.mulesoft.org/nexus/content/repositories/releases</url>
+                </pluginRepository>
             </pluginRepositories>
         </profile>
     </profiles>
